@@ -1,0 +1,84 @@
+
+body {
+    background-image: url("../src/Marvel\'s\ Spider-Man\ HD\ Spider\ Symbol\ Wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.header {
+    font-size: 30px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.inputField {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.button {
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+.taskList {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.taskItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.taskText {
+    font-size: 16px;
+    color: #333;
+}
+
+.editButton {
+    background-color: #28a745;
+    color: white;
+}
+
+.editButton:hover {
+    background-color: #218838;
+}
+
+.deleteButton {
+    background-color: #dc3545;
+    color: white;
+}
+
+.deleteButton:hover {
+    background-color: #c82333;
+}
